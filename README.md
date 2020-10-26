@@ -7,10 +7,10 @@ then get the jar in terget folder
 1. create a file named 'Dockerfile'  in root directory
 2. past : 
 
-FROM openjdk:11
-VOLUME /tmp
-ADD target/Rest_api-0.0.1-SNAPSHOT.jar app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+1.FROM openjdk:11
+2.VOLUME /tmp
+3.ADD target/Rest_api-0.0.1-SNAPSHOT.jar app.jar
+4.ENTRYPOINT ["java","-jar","/app.jar"]
 
 ## 3. Build docker image
 1. go to the directory where 'Dockerfile' is located
