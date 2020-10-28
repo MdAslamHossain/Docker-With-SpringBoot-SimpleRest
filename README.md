@@ -9,8 +9,6 @@
 5. Run 'docker ps' to show running containers ('docker ps -a' to show all containers)
 6. Run 'mysql -uroot -proot' (to login)
 7. Run 'create database db-name'
-8. 
-
 
 
 
