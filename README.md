@@ -10,10 +10,9 @@
 6. Run 'mysql -uroot -proot' (to login)
 7. Run 'create database db-name'
 
+Tutorial : https://www.youtube.com/watch?v=w_aVnMmrASE
 
 
-
-Tutorial : https://www.youtube.com/watch?v=nCQE3ewl9ps
 ## 1. Create executable jar
 1. mvn clean
 2. mvn install
@@ -35,3 +34,9 @@ then get the jar in terget folder
 
 ## Other cmd
 1. to run/off a container 'sudo docker container stop/stop container-id'
+
+
+
+
+
+Tutorial : https://www.youtube.com/watch?v=nCQE3ewl9ps
