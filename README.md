@@ -10,7 +10,7 @@
 6. Run 'mysql -uroot -proot' (to login)
 7. Run 'create database db-name'
 
-
+9. Access : jdbc:mysql://deviceIP:3307/dbName
 ## Start/Stop container
 1. To run/off a container 'docker container start/stop container-id'
 
