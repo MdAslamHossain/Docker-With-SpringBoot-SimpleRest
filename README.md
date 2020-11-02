@@ -20,6 +20,7 @@ Tutorial : https://www.youtube.com/watch?v=w_aVnMmrASE
 ## Create a jar
 0. Create a jar using IDE or CLI (Location of jar file should not be outer than Dockerfile)
 ## 1. Create docker file
+0. Run 'sudo su'
 0. Run 'touch Dockerfile' (in any directory but Location of jar file should not be outer than Dockerfile)
 1. Open the 'Dockerfile'
 2. past : below code
