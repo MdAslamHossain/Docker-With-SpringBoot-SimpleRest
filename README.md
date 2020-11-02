@@ -33,9 +33,7 @@ Tutorial : https://www.youtube.com/watch?v=w_aVnMmrASE
 0. 'docker run -it -p 8080:8080 imageName'
 
 ## Start/Stop container
-1. to run/off a container 'sudo docker container start/stop container-id'
-
-
+1. to run/off a container 'docker container start/stop container-id'
 
 
 Tutorial : https://www.youtube.com/watch?v=eEo4ZT3K-RE
