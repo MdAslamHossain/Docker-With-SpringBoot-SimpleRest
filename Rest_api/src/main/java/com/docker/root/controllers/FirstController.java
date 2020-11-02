@@ -21,13 +21,9 @@ public class FirstController {
 	private static final Logger LOGGER = LoggerFactory.getLogger(FirstController.class);
 	@Autowired
 	EmployeeRepository employeeRepository;
-	String value = null;
 
 	@GetMapping("/message")
 	public ResponseEntity<List<Employee>> getEmployees() {
-		if (value != null) {
-			System.out.println("Not null");
-		}
 
 		LOGGER.info("ENTER -- Service class : FirstController --- method : getEmployees()");
 		return ResponseEntity.ok().body(employeeRepository.findAll());
