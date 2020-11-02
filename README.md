@@ -10,6 +10,11 @@
 6. Run 'mysql -uroot -proot' (to login)
 7. Run 'create database db-name'
 
+
+## Start/Stop container
+1. To run/off a container 'docker container start/stop container-id'
+
+
 Tutorial : https://www.youtube.com/watch?v=w_aVnMmrASE
 
 
@@ -33,7 +38,7 @@ Tutorial : https://www.youtube.com/watch?v=w_aVnMmrASE
 0. 'docker run -it -p 8080:8080 imageName'
 
 ## Start/Stop container
-1. to run/off a container 'docker container start/stop container-id'
+1. To run/off a container 'docker container start/stop container-id'
 
 
 Tutorial : https://www.youtube.com/watch?v=eEo4ZT3K-RE
