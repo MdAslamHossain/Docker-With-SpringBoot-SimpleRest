@@ -32,8 +32,10 @@ Tutorial : https://www.youtube.com/watch?v=w_aVnMmrASE
 
 4. Run 'docker build -f Dockerfile -t dockerspring .' (To create docker image)
 5. Run 'docker images' (show images)
-## 4. Run docker container
+## Create docker container with name and port
 0. Run 'docker run --name app1 -d -p  8081:8080 dockerspring'
+## Rename docker container
+0. Run 'docker container rename oldName newName'
 
 ## Start/Stop container
 1. To run/off a container 'docker container start/stop container-id'
