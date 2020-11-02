@@ -17,28 +17,25 @@
 
 Tutorial : https://www.youtube.com/watch?v=w_aVnMmrASE
 
-
-## 1. Create docker file and image
-0. sudo su
-1. nano Dockerfile
+## Create a jar
+0. Create a jar using IDE or CLI (Location of jar file should not be outer than Dockerfile)
+## 1. Create docker file
+0. Run 'touch Dockerfile' (in any directory but Location of jar file should not be outer than Dockerfile)
+1. Open the 'Dockerfile'
 2. past : below code
 
 0. FROM openjdk:11
-1. WORKDIR /home/aslam/Downloads
-2. RUN git clone https://github.com/MdAslamHossain/Docker-With-SpringBoot-SimpleRest.git
-3. RUN chmod -R 777 docker
-4. WORKDIR /home/aslam/Downloads/docker
-5. RUN mvn clean
-6. RUN mvn install
-7. WORKDIR /home/aslam/Downloads/docker/target
-8. ENTRYPOINT ["java","-jar","/anyName-which-is-in-pom.jar"]
+1. ADD API-1.jar API-1.jar
+2. EXPOSE 8080
+3. ENTRYPOINT ["java","-jar","API-1.jar"]
 
-9. run 'docker build -t anyImgName .'
+4. Run 'docker build -f Dockerfile -t dockerspring .' (To create docker image)
+5. Run 'docker images' (show images)
 ## 4. Run docker container
-0. 'docker run -it -p 8080:8080 imageName'
+0. Run 'docker run --name app1 -d -p  8081:8080 dockerspring'
 
 ## Start/Stop container
 1. To run/off a container 'docker container start/stop container-id'
 
 
-Tutorial : https://www.youtube.com/watch?v=eEo4ZT3K-RE
+Tutorial : https://www.youtube.com/watch?v=FlSup_eelYE
