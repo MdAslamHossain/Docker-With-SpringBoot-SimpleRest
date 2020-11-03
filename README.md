@@ -53,7 +53,7 @@ Tutorial : https://www.youtube.com/watch?v=FlSup_eelYE
 4. Paste : 
 5. FROM nginx:1.18.0-alpine
 6. COPY /dist/dockerApp /usr/share/nginx/html
------------This configuration follows----------
+0. -----------This configuration follows----------
 http {
     include /etc/nginx/mime.types;
     server {
