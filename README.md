@@ -47,7 +47,7 @@ Tutorial : https://www.youtube.com/watch?v=FlSup_eelYE
 ## Docker for angular
 0. Check installed Node.js and Angular CLI on your local PC
 1. Go to project base directory
-2. Run 'ng build --prod'
+2. Run 'ng build --prod' (To create dist/appName)
 2. Run 'sudo su'
 3. Run 'touch Dockerfile'
 4. Paste : 
