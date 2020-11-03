@@ -42,3 +42,48 @@ Tutorial : https://www.youtube.com/watch?v=w_aVnMmrASE
 
 
 Tutorial : https://www.youtube.com/watch?v=FlSup_eelYE
+
+
+## Docker for angular
+0. Check installed Node.js and Angular CLI on your local PC
+1. Go to project base directory
+2. Run 'ng build --prod'
+2. Run 'sudo su'
+3. Run 'touch Dockerfile'
+4. Paste : 
+5. FROM nginx:1.18.0-alpine
+6. COPY /dist/dockerApp /usr/share/nginx/html
+-----------This configuration follows----------
+http {
+    include /etc/nginx/mime.types;
+    server {
+        listen 80;
+        server_name localhost;
+        root /usr/share/nginx/html;
+        index index.html;
+        location / {
+            try_files $uri $uri/ /index.html;
+        }
+    }
+}
+-----------------------------------------------
+7. Run 'docker build -t dockerName .'
+8. Run 'docker run --name containerName -d -p 90:80 imageName'
+
+
+Tutorial : https://www.youtube.com/watch?v=J9uKG22lBwA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
