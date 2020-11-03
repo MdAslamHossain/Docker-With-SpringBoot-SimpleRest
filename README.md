@@ -66,7 +66,7 @@ http {
         }
     }
 }
------------------------------------------------
+1. -----------------------------------------------
 7. Run 'docker build -t dockerName .'
 8. Run 'docker run --name containerName -d -p 90:80 imageName'
 
