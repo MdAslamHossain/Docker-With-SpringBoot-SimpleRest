@@ -1,5 +1,5 @@
 # Docker-With-SpringBoot-SimpleRest
-
+1. Understanding : https://www.youtube.com/watch?v=6A4VZlyAfe0&list=PLEYpvDF6qy8Yo9SpzhniLCjgRIxCpo2ku
 # Docker for MySQL
 0. Run 'sudo su'
 1. Run 'docker pull mysql:latest' (pull latest mysql image)
